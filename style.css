@@ -10,8 +10,8 @@ h6 {
 }
 
 body {
-  background-color: #0f2326;
   color: #fff;
+  background-color: black;
   min-height: 100vh;
   background-image: url("./assets/background.png");
   background-size: cover;
