@@ -44,7 +44,6 @@ body {
     font-weight: 500;
     letter-spacing: 1.28px;
 
-    // Looks for <li> childrens except the first
     li + li {
       margin-left: 2rem;
     }
@@ -99,7 +98,6 @@ body {
       display: flex;
       align-items: center;
       margin-top: toRem(56);
-      // Looks for all direct childrens except the first
       & > * + * {
         margin-left: toRem(51);
       }
